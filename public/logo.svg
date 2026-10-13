@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Gold Ribbon Gradients -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e08b" />
+      <stop offset="25%" stop-color="#dfb14b" />
+      <stop offset="50%" stop-color="#b88426" />
+      <stop offset="75%" stop-color="#dfb14b" />
+      <stop offset="100%" stop-color="#8c5e14" />
+    </linearGradient>
+    <linearGradient id="goldFold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#73490e" />
+      <stop offset="100%" stop-color="#b88426" />
+    </linearGradient>
+    <filter id="bannerShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Circular White Background & Orange Ring -->
+  <circle cx="250" cy="250" r="236" fill="#ffffff" stroke="#f97316" stroke-width="6" />
+
+  <!-- Holy Spirit Dove (Cyan/Sky Blue Line Work) -->
+  <g stroke="#009ee3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left Wing Feathers -->
+    <path d="M 148 115 
+             C 145 130, 142 165, 168 185 
+             C 172 170, 168 150, 182 140 
+             C 185 160, 192 185, 218 190 
+             C 218 178, 222 160, 238 155" />
+    <path d="M 152 112 
+             C 160 145, 175 180, 215 192" />
+    
+    <!-- Right Wing Feathers -->
+    <path d="M 320 85 
+             C 310 115, 292 145, 255 165
+             C 265 145, 280 120, 298 98" />
+    <path d="M 320 85 
+             C 305 130, 275 160, 248 172
+             C 270 162, 295 135, 312 110" />
+    <path d="M 285 145 
+             C 275 162, 255 178, 238 182" />
+
+    <!-- Dove Head, Beak & Neck -->
+    <path d="M 225 152 
+             C 232 140, 246 132, 258 135 
+             C 262 136, 268 133, 272 131
+             L 267 141 
+             C 260 148, 248 160, 235 172" />
+    <!-- Eye -->
+    <circle cx="252" cy="140" r="3.5" fill="#009ee3" stroke="none" />
+    
+    <!-- Dove Body and Tail Feathers -->
+    <path d="M 180 205 
+             C 165 210, 160 220, 172 225 
+             C 185 220, 195 210, 205 200" />
+    <path d="M 165 198 
+             C 182 196, 208 195, 232 185
+             C 215 200, 200 215, 185 225" />
+  </g>
+
+  <!-- Globe (Blue Latitude & Longitude Grid) -->
+  <g>
+    <!-- Globe Circle Outer -->
+    <circle cx="250" cy="285" r="85" fill="#ffffff" stroke="#008ecc" stroke-width="9" />
+    <!-- Center Vertical Longitude Line -->
+    <line x1="250" y1="200" x2="250" y2="370" stroke="#008ecc" stroke-width="7" />
+    <!-- Center Horizontal Latitude Line -->
+    <line x1="165" y1="285" x2="335" y2="285" stroke="#008ecc" stroke-width="7" />
+    <!-- Upper Latitude Arc -->
+    <ellipse cx="250" cy="245" rx="72" ry="25" fill="none" stroke="#008ecc" stroke-width="7" />
+    <!-- Lower Latitude Arc -->
+    <ellipse cx="250" cy="325" rx="72" ry="25" fill="none" stroke="#008ecc" stroke-width="7" />
+    <!-- Left Curved Longitude Meridian -->
+    <path d="M 250 200 C 190 225, 190 345, 250 370" fill="none" stroke="#008ecc" stroke-width="7" />
+    <!-- Right Curved Longitude Meridian -->
+    <path d="M 250 200 C 310 225, 310 345, 250 370" fill="none" stroke="#008ecc" stroke-width="7" />
+  </g>
+
+  <!-- Red Christian Cross -->
+  <g>
+    <!-- Vertical Cross Stem -->
+    <rect x="241" y="200" width="18" height="152" fill="#e11d48" rx="3" />
+    <!-- Horizontal Cross Beam / REFRAME Pill Badge -->
+    <rect x="182" y="234" width="136" height="34" rx="10" fill="#dc2626" filter="url(#bannerShadow)" stroke="#b91c1c" stroke-width="1.5" />
+    <!-- Text: REFRAME -->
+    <text x="250" y="258" 
+          font-family="'Plus Jakarta Sans', system-ui, Arial, sans-serif" 
+          font-size="20" 
+          font-weight="900" 
+          letter-spacing="2.5" 
+          fill="#ffffff" 
+          text-anchor="middle">REFRAME</text>
+  </g>
+
+  <!-- Golden 3D Ribbon Banner -->
+  <g filter="url(#bannerShadow)">
+    <!-- Left Ribbon Fold & Tails -->
+    <path d="M 125 305 
+             L 155 315 
+             L 155 375 
+             L 125 365 
+             L 138 340 Z" fill="url(#goldFold)" stroke="#784809" stroke-width="2" />
+    <path d="M 155 328 L 175 348 L 155 365 Z" fill="#5c3807" />
+
+    <!-- Right Ribbon Fold & Tails -->
+    <path d="M 375 305 
+             L 345 315 
+             L 345 375 
+             L 375 365 
+             L 362 340 Z" fill="url(#goldFold)" stroke="#784809" stroke-width="2" />
+    <path d="M 345 328 L 325 348 L 345 365 Z" fill="#5c3807" />
+
+    <!-- Main Curved Gold Ribbon Body -->
+    <path d="M 152 332 
+             C 210 355, 290 355, 348 332 
+             L 342 388 
+             C 285 410, 215 410, 158 388 Z" 
+          fill="url(#goldGrad)" 
+          stroke="#946115" 
+          stroke-width="3" />
+
+    <!-- Banner Inner Trim Highlights -->
+    <path d="M 156 338 
+             C 212 360, 288 360, 344 338" 
+          fill="none" 
+          stroke="#fff4be" 
+          stroke-width="1.5" 
+          opacity="0.8" />
+    <path d="M 162 382 
+             C 218 402, 282 402, 338 382" 
+          fill="none" 
+          stroke="#fff4be" 
+          stroke-width="1.5" 
+          opacity="0.6" />
+
+    <!-- Text: MINISTRIES -->
+    <text x="250" y="360" 
+          font-family="'Impact', 'Arial Black', sans-serif" 
+          font-size="28" 
+          font-weight="900" 
+          letter-spacing="2" 
+          fill="#1c1917" 
+          text-anchor="middle"
+          stroke="#fff"
+          stroke-width="0.5">MINISTRIES</text>
+
+    <!-- Text: INTERNATIONAL -->
+    <text x="250" y="386" 
+          font-family="'Impact', 'Arial Black', sans-serif" 
+          font-size="19" 
+          font-weight="900" 
+          letter-spacing="3" 
+          fill="#1c1917" 
+          text-anchor="middle"
+          stroke="#fff"
+          stroke-width="0.3">INTERNATIONAL</text>
+  </g>
+
+  <!-- Motto Subtitle: "The just shall live by faith" -->
+  <text x="250" y="420" 
+        font-family="'Cinzel', Georgia, 'Times New Roman', serif" 
+        font-size="19" 
+        font-weight="700" 
+        font-style="italic" 
+        letter-spacing="0.5" 
+        fill="#009ee3" 
+        text-anchor="middle">“The just shall live by faith”</text>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Reframe Ministries International - Live Church & Media",
+  "description": "Official live streaming, sermons, giving, and community app for Reframe Ministries International in Najjanankumbi. “The just shall live by faith”.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
